@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(252, 144, 203);
+    color: rgb(247, 40, 161);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(147, 1, 83);
+    text-align: center;
+}
+
+h3{
+    color: rgb(188, 4, 108);
+    border-bottom: 2px solid rgb(247, 40, 161);
+}
+
+p{
+    font-size: medium;
+    line-height: 1.5;
+}
+
+a{
+    color: rgb(147, 1, 83);
+    text-decoration: none;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+.titulo-pelicula{
+    color: rgb(122, 21, 125);
+    border-bottom: solid 2px rgb(122, 21, 125);
+}
+
+.titulo-helado{
+    color: rgba(144, 243, 210, 0.842);
+    border-bottom: solid 2px rgba(144, 243, 210, 0.842);
+}
+
+.titulo-musica{
+    color: rgb(246, 253, 50);
+    border-bottom: solid 2px rgb(246, 253, 50);
+}
+
+#titulo-principal{
+    background-color: rgb(181, 0, 127);
+    color: rgb(255, 132, 218);
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: flex-start;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    border-top: 2px solid rgb(247, 40, 161);
+}
